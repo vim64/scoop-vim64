@@ -1,44 +1,20 @@
 {
     "##": "Blowfish Tools",
     "version": "1.10.0",
-    "description": "CLI to initialize and configure a Blowfish Hugo project.",
+    "description": "CLI to initialize and configure a Blowfish Hugo project",
     "homepage": "https://github.com/nunocoracao/blowfish-tools",
     "license": "MIT",
-    "notes": "",
     "architecture": {
         "64bit": {
             "url": "https://registry.npmjs.org/blowfish-tools/-/blowfish-tools-1.10.0.tgz",
-            "hash": "b3baff00435c30078dbd4202129de96085f68ac6b1727c8c3833af61b6abae25"
-        },
-        "32bit": {
-            "url": "",
-            "hash": ""
-        },
-        "arm64": {
-            "url": "",
-            "hash": ""
+            "hash": "sha256:b3baff00435c30078dbd4202129de96085f68ac6b1727c8c3833af61b6abae25"
         }
     },
-    "pre_install": ["npm install -g blowfish-tools"],
+    "pre_install": "npm install -g blowfish-tools",
     "installer": {
         "script": ""
     },
-    "post_install": [
-        "",
-        ""
-    ],
-    "uninstaller": {
-        "script": ""
-    },
     "bin": "cli.js",
-    "env_add_path": [
-        "",
-        ""
-    ],
-    "persist": [
-        "",
-        ""
-    ],
     "checkver": {
         "url": "https://registry.npmjs.org/blowfish-tools",
         "regex": "\"version\":\\s*\"([\\d.]+)\""
@@ -47,17 +23,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://registry.npmjs.org/blowfish-tools/-/blowfish-tools-$version.tgz"
-            },
-            "32bit": {
-                "url": ""
-            },
-            "arm64": {
-                "url": ""
             }
-        },
-        "hash": {
-            "url": "",
-            "regex": ""
         }
     }
 }
