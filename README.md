@@ -1,3 +1,12 @@
+# scoop-vimx64
+personal scoop bucket
+
+## add bucket
+```
+scoop bucket add vim64 https://github.com/vim64/scoop-vim64.git
+```
+
+
 # Scoop Bucket Template
 
 <!-- Uncomment the following line after replacing placeholders -->
