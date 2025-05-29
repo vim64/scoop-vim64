@@ -14,7 +14,7 @@
     "installer": {
         "script": ""
     },
-    "bin": "cli.js",
+    "bin": "blowfish-tools",
     "checkver": {
         "url": "https://registry.npmjs.org/blowfish-tools",
         "regex": "\"version\":\\s*\"([\\d.]+)\""
