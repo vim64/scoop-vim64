@@ -8,7 +8,7 @@
     "architecture": {
         "64bit": {
             "url": "https://registry.npmjs.org/blowfish-tools/-/blowfish-tools-1.10.0.tgz",
-            "hash": ""
+            "hash": "b3baff00435c30078dbd4202129de96085f68ac6b1727c8c3833af61b6abae25"
         },
         "32bit": {
             "url": "",
@@ -19,7 +19,7 @@
             "hash": ""
         }
     },
-    "pre_install": ["npm install -g blowfish-tools@1.10.0"],
+    "pre_install": ["npm install -g blowfish-tools"],
     "installer": {
         "script": ""
     },
@@ -30,7 +30,7 @@
     "uninstaller": {
         "script": ""
     },
-    "bin": "node_modules/.bin/blowfish-tools",
+    "bin": "cli.js",
     "env_add_path": [
         "",
         ""
