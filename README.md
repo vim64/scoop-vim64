@@ -1,11 +1,14 @@
 # scoop-vimx64
-personal scoop bucket
+personal scoop bucket based on scoop template below
+
+Apps:
+
+- blowfish-tools
 
 ## add bucket
 ```
 scoop bucket add vim64 https://github.com/vim64/scoop-vim64.git
 ```
-
 
 # Scoop Bucket Template
 
